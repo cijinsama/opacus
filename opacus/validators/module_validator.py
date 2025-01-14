@@ -95,7 +95,7 @@ class ModuleValidator:
         Returns:
             Fixed module.
         """
-        module = clone_module(module)
+        # module = clone_module(module)
         # iterate over all sub_modules
         # We have to get sub_module names in a list first as we will be
         # changing the modules inside the loop.
